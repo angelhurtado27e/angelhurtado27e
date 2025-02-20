@@ -25,6 +25,8 @@ h2 {
 	font-family: "Playwrite NO";
 	text-align: center;
 	text-shadow: var(--beige) 0 0 10px;
+	font-size: 32px;
+	margin-bottom: 50px;
 }
 
 h3 {
@@ -87,6 +89,7 @@ h1 {
 	font-family: "Poppins";
 	font-size: 22px;
 	text-shadow: none;
+	margin-bottom: 0;
 }
 
 .hola p {
@@ -106,16 +109,11 @@ h1 {
 
 
 
-/* -- -- -- Proyectos -- -- -- */
+/* -- -- Proyectos -- -- */
 /* Sigue ajustar los h2 que queden bien los text-shadow */
 
 .proyectos {
 	margin: 200px auto;
-}
-
-.proyectos h2 {
-	font-size: 32px;
-	margin-bottom: 50px;
 }
 
 .proyecto {
@@ -179,4 +177,66 @@ h1 {
 
 .proyecto .tecnologias {
 	margin: 15px 0 15px -4px;
+}
+
+
+
+
+/* -- -- Educación -- -- */
+.educacion {
+	width: 860px;
+	margin: auto;
+}
+
+.educacion ol {
+	list-style: none;
+}
+
+.educacion .logo {
+	margin-right: 20px;
+}
+.educacion .logo::after {
+	content: "";
+	display: block;
+	position: relative;
+	width: 2px;
+	height: 10px;
+	background: var(--beige);
+	margin: auto;
+	height: 50px;
+}
+.educacion li:last-child .logo::after {
+	display: none;
+}
+
+.educacion img {
+	box-sizing: content-box;
+	border-radius: 100%;
+	border: 1px solid var(--beige);
+	width: 100%;
+	max-width: 35px;
+	max-height: 35px;
+	padding: 12px;
+	margin-top: 10px;
+	vertical-align: top;
+}
+
+.educacion li {
+	margin-top: -10px;
+	display: flex;
+}
+
+.educacion h3 {
+	font-family: poppins;
+	text-shadow: none;
+	font-weight: 500;
+}
+
+.educacion h3,
+.educacion p {
+	font-size: 18px;
+}
+
+.educacion p:last-child {
+	font-weight: 300;
 }
