@@ -12,7 +12,6 @@
 
 body {
 	font-family: "Poppins", serif;
-	background: darkslateblue;
 	color: var(--beige);
 }
 
@@ -35,6 +34,15 @@ h3 {
 	font-size: 24px;
 	text-shadow: var(--beige) 0 0 10px;
 	text-shadow: var(--beige-transparent) 0 0 10px;
+}
+
+
+
+
+/* -- -- background -- -- */
+
+body {
+	background: url("./img/bg.png");
 }
 
 
@@ -182,6 +190,7 @@ h1 {
 
 
 /* -- -- Educación -- -- */
+
 .educacion ol {
 	list-style: none;
 	width: 800px;
