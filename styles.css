@@ -20,13 +20,13 @@ p {
 	font-size: 18px;
 }
 
-h2 {
+section > h2 {
 	font-weight: 400;
 	font-family: "Playwrite NO";
 	text-align: center;
 	text-shadow: var(--beige) 0 0 10px;
 	font-size: 32px;
-	margin-bottom: 50px;
+	margin: 200px 0 50px 0;
 }
 
 h3 {
@@ -88,8 +88,7 @@ h1 {
 .hola h2 {
 	font-family: "Poppins";
 	font-size: 22px;
-	text-shadow: none;
-	margin-bottom: 0;
+	font-weight: 400;
 }
 
 .hola p {
@@ -113,7 +112,7 @@ h1 {
 /* Sigue ajustar los h2 que queden bien los text-shadow */
 
 .proyectos {
-	margin: 200px auto;
+	margin: auto;
 }
 
 .proyecto {
@@ -183,13 +182,10 @@ h1 {
 
 
 /* -- -- Educación -- -- */
-.educacion {
-	width: 860px;
-	margin: auto;
-}
-
 .educacion ol {
 	list-style: none;
+	width: 800px;
+	margin: auto;
 }
 
 .educacion .logo {
@@ -219,6 +215,8 @@ h1 {
 	padding: 12px;
 	margin-top: 10px;
 	vertical-align: top;
+	user-select: none;
+	pointer-events: none;
 }
 
 .educacion li {
