@@ -259,7 +259,10 @@ h1 {
 	font-weight: 500;
 }
 
-.educacion h3,
+.educacion h3 {
+	font-size: 20px;
+}
+
 .educacion p {
 	font-size: 18px;
 }
@@ -275,8 +278,12 @@ h1 {
 
 .referencias {
 	text-align: center;
-	width: 576px;
+	width: 450px;
 	margin: auto;
+}
+
+.referencias h2 {
+	margin-bottom: 90px;
 }
 
 .referencias ul {
@@ -284,7 +291,7 @@ h1 {
 }
 
 .referencias li {
-	margin-bottom: 100px;
+	margin-bottom: 80px;
 }
 
 .referencias img {
@@ -293,16 +300,17 @@ h1 {
 }
 
 .referencias p {
-	font-size: 18px;
+	margin-top: 10px;
+	font-size: 20px;
 }
 
 .referencias h3 {
 	text-shadow: none;
-	font-size: 18px;
+	font-size: 20px;
 	margin-top: 10px;
 }
 
 .referencias h4 {
-	font-weight: 400;
+	font-weight: 300;
 	font-size: 18px;
 }
