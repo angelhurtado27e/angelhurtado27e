@@ -267,3 +267,42 @@ h1 {
 .educacion p:last-child {
 	font-weight: 300;
 }
+
+
+
+
+/* -- -- referencias -- -- */
+
+.referencias {
+	text-align: center;
+	width: 576px;
+	margin: auto;
+}
+
+.referencias ul {
+	list-style: none;
+}
+
+.referencias li {
+	margin-bottom: 100px;
+}
+
+.referencias img {
+	width: 121px;
+	border-radius: 50%;
+}
+
+.referencias p {
+	font-size: 18px;
+}
+
+.referencias h3 {
+	text-shadow: none;
+	font-size: 18px;
+	margin-top: 10px;
+}
+
+.referencias h4 {
+	font-weight: 400;
+	font-size: 18px;
+}
